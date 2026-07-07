@@ -5,4 +5,7 @@ int isOdd(int n);
 void reverseString(char str[]);
 
 int lcm(int a , int b);
+
+int isEven(int n);
+
 #endif

@@ -60,3 +60,8 @@ while (1){
 max +=x;
 }
 }
+
+int isEven(int n)
+{
+    return n % 2 == 0;
+}
