@@ -3,6 +3,8 @@
 int sumDigit(int n);
 int isOdd(int n);
 int countDigits(int n);
+int factorial(int n);
+
 #ifdef FUNCTION_H
 #define FUNCTION_H
 

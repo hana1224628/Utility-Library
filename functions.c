@@ -72,6 +72,7 @@ while (1){
 max +=x;
 }
 }
+
 #include "functions.h"
  
 int countDigits(int n)
@@ -92,4 +93,20 @@ int countDigits(int n)
 
   return count;
 
+}
+
+
+int factorial(int n)
+{
+    if (n < 0)
+        return -1;
+
+    int result = 1;
+
+    for (int i = 1; i <= n; i++)
+    {
+        result *= i;
+    }
+
+    return result;
 }
