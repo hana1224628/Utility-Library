@@ -73,12 +73,32 @@ max +=x;
 }
 }
 
-<<<<<<< HEAD
+ 
+int countDigits(int n)
+{
+  int count = 0;
+
+  if (n == 0)
+    return 1;
+
+  if(n < 0)
+    n = -n;
+
+  while ( n != 0)
+  {
+     count++;
+      n = n/ 10;
+  }
+
+  return count;
+
+}
+
+
 int isEven(int n)
 {
     return n % 2 == 0;
-=======
-int factorial(int n)
+int factorial(int n)>>>>>>>
 {
     if (n < 0)
         return -1;
@@ -99,10 +119,10 @@ int gcd(int a, int b) {
         a = t;
     }
     return a;
->>>>>>> cb732422fdfe26670edd6bc664934934877a460e
 }
 
 int isEven(int n)
 {
     return n % 2 == 0;
 }
+  main
