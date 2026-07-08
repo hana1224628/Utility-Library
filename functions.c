@@ -73,7 +73,6 @@ max +=x;
 }
 }
 
-#include "functions.h"
  
 int countDigits(int n)
 {
