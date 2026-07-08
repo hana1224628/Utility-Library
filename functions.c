@@ -73,6 +73,11 @@ max +=x;
 }
 }
 
+<<<<<<< HEAD
+int isEven(int n)
+{
+    return n % 2 == 0;
+=======
 int factorial(int n)
 {
     if (n < 0)
@@ -94,4 +99,10 @@ int gcd(int a, int b) {
         a = t;
     }
     return a;
+>>>>>>> cb732422fdfe26670edd6bc664934934877a460e
+}
+
+int isEven(int n)
+{
+    return n % 2 == 0;
 }
