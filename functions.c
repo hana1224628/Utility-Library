@@ -95,7 +95,10 @@ int countDigits(int n)
 }
 
 
-int factorial(int n)
+int isEven(int n)
+{
+    return n % 2 == 0;
+int factorial(int n)>>>>>>>
 {
     if (n < 0)
         return -1;
@@ -109,3 +112,17 @@ int factorial(int n)
 
     return result;
 }
+int gcd(int a, int b) {
+    while (b != 0) {
+        int t = b;
+        b = a % b;
+        a = t;
+    }
+    return a;
+}
+
+int isEven(int n)
+{
+    return n % 2 == 0;
+}
+  main
